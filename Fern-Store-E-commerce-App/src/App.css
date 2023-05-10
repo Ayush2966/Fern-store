@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Nunito:ital,wght@0,300;1,300&family=Playfair+Display:wght@700;800&family=Poppins:wght@200;300&family=Public+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Nunito:ital,wght@0,300;1,300&family=Playfair+Display:wght@700;800&family=Poppins:wght@200;300;400&family=Public+Sans:wght@200&display=swap');
+@import url('https://kube-ui.netlify.app/Components/kube-ui.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css');
+@import url('https://unpkg.com/mockman-js@latest/dist/style.css'); 
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  li {
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;
+    color: var(--dark-secondary-text-color);
+  }
+  body {
+    color: #3e4152;
+  }
+  :root {
+      --primary-color: #45523e;
+      --dark-primary-color: #323b2e;
+      --light-primary-color: #8ca67e;
+      --very-light-primary-color: #e8ffdb;
+    
+      --complimentary-text-color: #f5ece5;
+      --transparent-white: white;
+    
+      --secondary-text-color: #696b79;
+      --dark-secondary-text-color: #3f4049;
+      --dark-secondary-text-color2: #26272c;
+      --secondary-color: #eaeaec;
+      --dark-secondary-color: #d8d8da;
+      --dark-secondary-color2: #b6b6b6;
+  }
+  input {
+    outline: none;
+  }
+  .no-link-style {
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    color: inherit;
+  }
+  .shop-btn {
+    color: var(--complimentary-text-color);
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+  font-family: "Playfair Display", serif;
+  letter-spacing: 1px;
+}

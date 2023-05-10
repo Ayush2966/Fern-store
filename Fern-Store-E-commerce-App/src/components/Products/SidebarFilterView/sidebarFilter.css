@@ -1,0 +1,125 @@
+.product-sidebar {
+  overflow-y: auto;
+  height: calc(100vh - 3.93rem);
+  min-width: 14rem;
+  position: sticky;
+  top: 4.2rem;
+}
+.side-navbar {
+  display: flex;
+  flex-direction: column;
+  padding-right: 1rem;
+}
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.62rem 0;
+  padding: 1rem 0 0;
+}
+.link-text-primary {
+  cursor: pointer;
+  text-decoration: none;
+}
+.link-text-primary:hover {
+  text-decoration: underline;
+  transition: all 0.3s ease 0s;
+}
+input[type="range"] {
+  -webkit-appearance: none;
+  background: transparent;
+}
+input[type="range"]:focus {
+  outline: none;
+}
+input[type="range"]::-ms-track {
+  width: 100%;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background: var(--primary-color);
+  cursor: pointer;
+  margin-top: -5px;
+}
+/* For firefox */
+input[type="range"]::-moz-range-thumb {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background: var(--primary-color);
+  cursor: pointer;
+}
+/* for IE */
+input[type="range"]::-ms-thumb {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background: var(--primary-color);
+  cursor: pointer;
+}
+input[type="range"]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 7px;
+  cursor: pointer;
+  background: #d4d7db;
+  border-radius: 0.3rem;
+}
+input[type="range"]::-moz-range-track {
+  width: 100%;
+  height: 7px;
+  cursor: pointer;
+  background: #d4d7db;
+  border-radius: 0.3rem;
+}
+input[type="range"]::-ms-track {
+  width: 100%;
+  height: 7px;
+  cursor: pointer;
+  background: #d4d7db;
+  border-radius: 0.3rem;
+}
+
+datalist {
+  margin-bottom: 0.5rem;
+}
+input[type="radio"],
+input[type="checkbox"] {
+  accent-color: var(--primary-color);
+}
+.filter-close-btn{
+  padding: 0 1rem;
+  background: var(--transparent-white);
+  font-size: 1.4rem;
+  border: none;
+  color: #3e4152;
+  cursor: ponter;
+  cursor: pointer;
+  display: none;
+}
+@media screen and (max-width: 640px) {
+  .product-sidebar {
+    position: fixed;
+    z-index: 2;
+    background-color: var(--transparent-white);
+    top: 3rem;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    transform: translateY(100%);
+    transition: all .3s ease-in-out;
+  }
+  .filter-close-btn{
+    display: block;
+  }
+  .active{
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,32 @@
+.order-summary-body{
+  padding: 1rem;
+  box-shadow: 0px 0px 5px 1px #bcb8b8;
+  max-width: 50rem;
+  width: 100%;
+}
+.order-detail{
+  max-width: 25rem;
+  width: 100%;
+  gap: 1rem;
+}
+.order-detail-title{
+  padding: 5px 0;
+  border-bottom: 1px solid var(--secondary-color);
+}
+.text-success{
+  color: var(--success-color);
+}
+.shipping-detail p{
+  margin: 0;
+}
+.shipping-detail p:first-child{
+  margin-bottom: 8px
+}
+.no-margin-p{
+  margin: 0;
+}
+@media screen and (max-width: 768px) {
+  .order-summary-body{
+    flex-direction: column;
+  }
+}

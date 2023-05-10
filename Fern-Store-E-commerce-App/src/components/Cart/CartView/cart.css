@@ -1,0 +1,106 @@
+.cart-wrapper {
+    margin: 1rem auto 2rem;
+    display: flex;
+    max-width: 1100px;
+    flex-direction: column;
+  }
+  .cart-body {
+    display: flex;
+    flex-direction: row;
+  }
+  .cart-item-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex: 1 1 70%;
+    margin-right: 2rem;
+  }
+  .cart-item {
+    max-width: 100%;
+    margin-bottom: 1rem;
+    border: 1px solid var(--secondary-color);
+    border-radius: 0.5rem;
+    background-color: var(--transparent-white);
+  }
+  
+  .card-horizontal {
+    max-width: 100%;
+  }
+  .item-price-card {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 0 1 30%;
+    position: sticky;
+    top: calc(4.5rem + 3rem);
+    border-left: 1px solid var(--secondary-color);
+    background-color: var(--transparent-white);
+    max-width: 18rem;
+    padding: 0 2rem;
+  }
+  .price-card-header {
+    border-bottom: 1px solid var(--secondary-color);
+    font-size: 1.12rem;
+    text-transform: uppercase;
+    padding: 6px 0;
+  }
+  .order-body {
+    font-size: 0.875rem;
+    line-height: 2.3;
+  }
+  .order-breakup {
+    border-bottom: 1px solid var(--secondary-color);
+  }
+  .order-item {
+    display: flex;
+    justify-content: space-between;
+  }
+  .order-amount {
+    border-bottom: 1px solid var(--secondary-color);
+  }
+  .bttn-order {
+    width: 100%;
+    text-transform: uppercase;
+  }
+  .card-horizontal-content-container {
+    position: relative;
+  }
+  .card-horizontal-content-container .btn-close {
+    position: absolute;
+    top: 0.8rem;
+    right: 0.8rem;
+    background-color: #edeeef;
+    color: #857d7d;
+    transition: all 0.3s ease 0s;
+  }
+  .btn-close:hover {
+    color: var(--dark-secondary-text-color);
+  }
+  .product-discounted-price {
+    font-size: 1rem;
+  }
+  .move-to-wishlist {
+    font-size: 0.875rem;
+    color: var(--dark-secondary-text-color);
+  }
+  .icon-btn{
+    background: transparent;
+    color: var(--primary-color);
+  }
+  /* media query */
+  @media only screen and (max-width: 768px) {
+    html {
+      font-size: 90%;
+    }
+    .cart-body {
+      flex-direction: column;
+    }
+    .item-price-card {
+      max-width: 100%;
+    }
+    .cart-item-list {
+      flex-shrink: 0;
+      margin-right: 0;
+    }
+  }
+  

@@ -1,0 +1,8 @@
+.loader-wrapper{
+    background-color: rgba(247, 247, 247, 0.95);
+    opacity: 0.5;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 9999;
+}
