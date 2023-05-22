@@ -9,13 +9,13 @@ const AddressForm = ({
   dummyAddressFormHandler
 }) => {
   const dummyAddress ={
-    fullName: 'John Doe',
-    mobile: '9032461120',
+    fullName: 'Ayush Jain',
+    mobile: '90323xxxxx',
     houseNo: '420-B/02',
-    detailAddress: 'Lake view back gate, AR Street, Whitefield',
+    detailAddress: 'Hue Hue Nagar, Hue Street',
     pinCode: '12001',
-    city: 'Bangalore',
-    state: 'Karnataka'
+    city: 'Jaipur',
+    state: 'Rajasthan'
   }
 
   return (
