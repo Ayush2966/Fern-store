@@ -16,7 +16,7 @@ const Login = () => {
         password: ''
     }
     const testLoginCreds = {
-        email: 'shikhasingh@gmail.com',
+        email: 'ayushjain02812@gmail.com',
         password: 'shikhasingh123'
     };
     const [loginCreds, setLoginCreds] = useState(initalLoginCreds);
