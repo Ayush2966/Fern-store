@@ -3,6 +3,10 @@
 
 Fern store is an e-commerce app specifically for plants featuring different cateogry of plants.
 
+# Product Page 
+Show various plants and offers various filters based on price, rating and category as per user requirement.
+
+
 ## Table of Contennts
 - Features
 - Tech Stack
